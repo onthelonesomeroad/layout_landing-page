@@ -27,7 +27,7 @@
   }
 
   &__categories {
-    @include onDesktop {
+    @include on-desktop {
       width: 324px;
     }
   }

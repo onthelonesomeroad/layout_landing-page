@@ -1,12 +1,13 @@
 .contacts {
-  @include pageGrid;
+  @include page-grid;
+
   justify-content: center;
   align-items: center;
 
   &__container {
     grid-column: 1 / -1;
 
-    @include onDesktop {
+    @include on-desktop {
       grid-column: 8 / -1;
     }
   }

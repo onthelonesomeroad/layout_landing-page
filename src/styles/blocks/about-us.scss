@@ -1,7 +1,7 @@
 .about-us {
   &__container {
-    @include pageGrid;
-    @include minusMargin;
+    @include page-grid;
+    @include minus-margin;
 
     background-color: rgba(252, 250, 239, 1);
     height: 392px;
@@ -11,12 +11,12 @@
     padding-inline: 20px;
     margin-block: -6px;
 
-    @include onTablet {
+    @include on-tablet {
       height: 416px;
       padding-inline: 72px;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       height: 450;
       padding-inline: 112px;
     }
@@ -26,11 +26,11 @@
     margin: 0;
     grid-column: 1 / -1;
 
-    @include onTablet {
+    @include on-tablet {
       grid-column: 1 / 4;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       grid-column: 1 / 7;
     }
   }
@@ -39,11 +39,11 @@
     margin: 0;
     grid-column: 1 / -1;
 
-    @include onTablet {
+    @include on-tablet {
       grid-column: 4 / -1;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       grid-column: 8 / -1;
     }
   }
@@ -60,13 +60,13 @@
     object-fit: cover;
     object-position: center;
 
-    @include minusMargin;
+    @include minus-margin;
 
-    @include onTablet {
+    @include on-tablet {
       height: 400px;
     }
 
-    @include onDesktop {
+    @include on-desktop {
       height: 460px;
     }
   }
