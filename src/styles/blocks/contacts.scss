@@ -1,0 +1,24 @@
+.contacts {
+  @include pageGrid;
+  justify-content: center;
+  align-items: center;
+
+  &__container {
+    grid-column: 1 / -1;
+
+    @include onDesktop {
+      grid-column: 8 / -1;
+    }
+  }
+
+  &__text {
+    color: rgba(147, 147, 163, 1);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+  }
+
+  &__description {
+    margin-bottom: 24px;
+  }
+}
