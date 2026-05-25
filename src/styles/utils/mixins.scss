@@ -25,6 +25,8 @@
 }
 
 .container {
+  justify-content: center;
+
   @include content-padding-in-line;
 }
 

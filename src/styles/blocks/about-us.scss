@@ -9,7 +9,7 @@
     justify-content: center;
 
     padding-inline: 20px;
-    margin-block: -6px;
+    margin-top: -6px;
 
     @include on-tablet {
       height: 416px;
@@ -37,6 +37,7 @@
 
   &__content {
     margin: 0;
+
     grid-column: 1 / -1;
 
     @include on-tablet {
@@ -49,6 +50,7 @@
   }
 
   &__description {
+    margin: 0;
     letter-spacing: 0.15px;
     font-weight: 400;
   }

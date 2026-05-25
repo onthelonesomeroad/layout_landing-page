@@ -1,5 +1,4 @@
 .form {
-  margin-bottom: 16px;
   display: block;
   box-sizing: border-box;
   width: 100%;
@@ -15,9 +14,10 @@
   &__input {
     width: 100%;
     box-sizing: border-box;
+    margin-bottom: 16px;
 
     padding-left: 16px;
-    text-align: left;
+    padding-block: 14px;
 
     font-family: inherit;
     color: inherit;
@@ -32,12 +32,8 @@
     outline: none;
   }
 
-  &__input--small {
-    height: 48px;
-  }
-
   &__input--big {
-    height: 148px;
+    padding-bottom: 114px;
   }
 
   &__input::placeholder {
