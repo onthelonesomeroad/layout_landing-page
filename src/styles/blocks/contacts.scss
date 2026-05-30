@@ -24,4 +24,8 @@
     text-decoration: none;
     color: inherit;
   }
+
+  &__description:hover {
+    color: rgba(147, 147, 163, 1);
+  }
 }
